@@ -1,0 +1,17 @@
+{
+    "name": "brunoba/stateless_menu",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BrunoBA\\Menu\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "doctrine/orm": "^3.0",
+        "doctrine/dbal": "^4.0",
+        "symfony/cache": "^7.0"
+    }
+}
